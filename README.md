@@ -1,4 +1,6 @@
-# QUOTES by Veronica Wangari
+# QUOTES 
+#### By 
+Veronica Wangari
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
 
@@ -7,6 +9,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 ## Description
 An app that that allows users to add quotes, delete, upvote or downvote a quote
+## Known Bugs
+There are no issues, it runs just fine.
+## Technologies Used
+1) HTML <br> 2) CSS <br> 3) BootStrap <br> 4) Angular
 
 ## Code scaffolding
 
