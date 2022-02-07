@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class QuotesComponent implements OnInit {
 title='Add a Quote';
 quotes:Quote[]=[
-  new Quote (1,'Kulei','Day','You always pass failure on the way to to success.','Mickey Rooney', new Date(2021,7,12),0,0),
-    new Quote (2,'Brian','Technology…','Technology… the knack of so arranging  that we don’t have to experience it.','Max Frisch',new Date(2021,7,10),0,0),
-    new Quote (3,'Mikey','The great myth','The great myth of our times is that technology is communication.','Libby Larsen',new Date(2021,7,8),0,0),
-    new Quote (4,'Beatrice','Hater','People will always have their opinion on you despite who you are and what your capable of.','Ana Chable',new Date(2021,7,7),0,0),
-    new Quote (4,'Kelvin','Life','The purpose of our lives is to be happy..','Dalai Lama',new Date(2021,7,7),0,0)
+  new Quote (1,'Amal','Daily Hack','When things go wrong, do not go with them','Elbert Hubbard', new Date(2022,2,2),0,0),
+    new Quote (2,'Amanda','Daily Hack','Miracles happen to those who believe in them.','Bernhard Berenson',new Date(2021,2,10),0,0),
+    new Quote (3,'Grace','Daily Hack','One small positive thought can change your whole day.','Zig Ziglar',new Date(2022,2,8),0,0),
+    new Quote (4,'Andrew','Daily Hack','Write it on your heart that every day is the best day in the year.','Ralph Waldo Emerson',new Date(2022,2,4),0,0),
+    new Quote (4,'Michael','Daily Hack','The purpose of our lives is to be happy..','Dalai Lama',new Date(2022,1,1),0,0)
 ]
   constructor() { }
 
