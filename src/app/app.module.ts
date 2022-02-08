@@ -7,13 +7,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { QuotesComponent } from './components/quotes/quotes.component';
 import { QuotesFormComponent } from './components/quotes-form/quotes-form.component';
 import { FormsModule } from '@angular/forms';
+import { QuoteDetailsComponent } from './componets/quote-details/quote-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     QuotesComponent,
-    QuotesFormComponent
+    QuotesFormComponent,
+    QuoteDetailsComponent
   ],
   imports: [
     BrowserModule,
