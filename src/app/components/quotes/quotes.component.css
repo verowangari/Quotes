@@ -1,0 +1,72 @@
+
+.card-view {
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(204, 204, 204, 0.2);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(204, 204, 204, 0.2);
+    box-shadow: 0px 1px 1px 0px rgba(204, 204, 204, 0.2);
+    float: left;
+    width: 292px;
+    margin: 5px;
+}
+
+.container {
+    border: 1px solid #efefef;
+    padding: 15px;
+    background-color: green;
+    width: 100%;
+}
+
+.full-width {
+    position: relative;
+    max-width: 906px;
+    margin: 20px auto;
+}
+.Switch.list {
+    background: #fd7117;
+}
+
+.Switch span {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    top: 6px;
+}
+
+.Switch span.on {
+    left: 9px;
+}
+
+.Switch span.off {
+    left: 6px;
+}
+
+.Switch.list .Toggle {
+    left: 1px;
+}
+
+.Switch.card .Toggle {
+    left: 33px;
+}
+.red {
+    color: #ef5350;
+}
+
+.blue {
+    color: #0277bd;
+}
+
+.orange {
+    color: #fd6b0d;
+}
+
+.yellow {
+    color: #e5af0e;
+}
+
+.green {
+    color: #2e7d32;
+}
+
+.cyan {
+    color: #3f9489;
+}
