@@ -13,6 +13,7 @@ An app that that allows users to add quotes, delete, upvote or downvote a quote
 There are no issues, it runs just fine.
 ## Technologies Used
 1) HTML <br> 2) CSS <br> 3) BootStrap <br> 4) Angular
+## Link to Github Pages
 
 ## Code scaffolding
 
@@ -33,3 +34,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Support and contact details
+Email: verowangari34@gmail.com
+## License
+Copyright (c) 2021 Veronica Wangari
+This project is under [MIT]LICENSE
