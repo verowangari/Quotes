@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { QuotesComponent } from './components/quotes/quotes.component';
 import { QuotesFormComponent } from './components/quotes-form/quotes-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { QuotesFormComponent } from './components/quotes-form/quotes-form.compon
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
