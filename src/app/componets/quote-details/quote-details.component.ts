@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Quote } from 'src/app/quote';
 
 @Component({
   selector: 'app-quote-details',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quote-details.component.css']
 })
 export class QuoteDetailsComponent implements OnInit {
-  @Input() quoty: Quote;
+  @Input() quoty!: Quote;
   @Output() isRead = new EventEmitter<boolean>();
   deleteQuote(read:boolean){
     this.isRead.emit(read);
@@ -20,6 +21,7 @@ export class QuoteDetailsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.quoty)
   }
 
 }
