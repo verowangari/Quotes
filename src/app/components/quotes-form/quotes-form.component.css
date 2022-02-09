@@ -1,7 +1,7 @@
 .form-control{
     color: white;
-    background: transparent;
-    font-weight: 570;
+    font-weight: 600;
+    background: inherit;
   }
   label{
     color: white;
@@ -10,7 +10,7 @@
   hr{
     width: 50%;
     height: 2px;
-    background-color: green;
+
   }
   .heading{
     color: white;
@@ -18,12 +18,16 @@
     padding-top: 2%;
   }
   .container{
-    background-color: rgba(0, 0, 0, 0.374);
-    border-radius: 4px;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
+    background-color: black;
+    border-radius: 2.3px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 
   }
   .alert{
     display: none;
+  }
+  .btn{
+    background-color: white;
+    
   }

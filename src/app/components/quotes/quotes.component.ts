@@ -51,12 +51,7 @@ export class QuotesComponent implements OnInit {
       0
     ),
   ];
-  get sortQuotes() {
-    return this.quotes.sort((a, b) => {
-      return <any>new Date(b.datePosted) - <any>new Date(a.datePosted);
-    });
-  }
-
+ 
   quoteDelete(isRead: any, index: any) {
     if (isRead) {
       let toDelete = confirm(`Are you sure you want to delete this Quote?`);
@@ -66,9 +61,6 @@ export class QuotesComponent implements OnInit {
     }
   }
 
-  displayInfo(index: any) {
-    this.quotes[index].showInfo = !this.quotes[index].showInfo;
-  }
   receiveQuote(event: any) {
     let arraysize = this.quotes.length;
     event.id = arraysize + 1;
