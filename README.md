@@ -14,7 +14,7 @@ There are no issues, it runs just fine.
 ## Technologies Used
 1) HTML <br> 2) CSS <br> 3) BootStrap <br> 4) Angular
 ## Link to Github Pages
-
+verowangari.github.io/quotes/
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
