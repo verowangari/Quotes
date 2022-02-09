@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    border: 1px solid #efefef;
+    border: 1px solid black;
     padding: 15px;
     background-color: navy;
     width: 100%;
