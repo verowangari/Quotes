@@ -19,18 +19,9 @@ export class QuotesComponent implements OnInit {
       0,
       0
     ),
+    
     new Quote(
       2,
-      'Amanda',
-      'Daily Hack',
-      'Miracles happen to those who believe in them.',
-      'Bernhard Berenson',
-      new Date(2021, 2, 10),
-      0,
-      0
-    ),
-    new Quote(
-      3,
       'Grace',
       'Daily Hack',
       'One small positive thought can change your whole day.',
@@ -40,7 +31,7 @@ export class QuotesComponent implements OnInit {
       0
     ),
     new Quote(
-      4,
+      3,
       'Andrew',
       'Daily Hack',
       'Write it on your heart that every day is the best day in the year.',
@@ -50,7 +41,7 @@ export class QuotesComponent implements OnInit {
       0
     ),
     new Quote(
-      5,
+      4,
       'Michael',
       'Daily Hack',
       'The purpose of our lives is to be happy..',
@@ -64,27 +55,27 @@ export class QuotesComponent implements OnInit {
     return this.quotes.sort((a, b) => {
       return <any>new Date(b.datePosted) - <any>new Date(a.datePosted);
     });
-  }  
-  addedQuote(quote:any){
-    let arraysize = this.quotes.length;
-    quote.id = arraysize+1;
-    quote.completeDate = new Date(quote.completeDate)
-    this.quotes.push(quote)
   }
-  quoteDelete(isRead:any, index:any){
+
+  quoteDelete(isRead: any, index: any) {
     if (isRead) {
-      let toDelete = confirm(`Are you sure you want to delete this Quote?`)
-      if(toDelete){
-        this.quotes.splice(index,1);
+      let toDelete = confirm(`Are you sure you want to delete this Quote?`);
+      if (toDelete) {
+        this.quotes.splice(index, 1);
       }
-      
     }
   }
- 
-  displayInfo(index:any){
+
+  displayInfo(index: any) {
     this.quotes[index].showInfo = !this.quotes[index].showInfo;
   }
-    
+  receiveQuote(event: any) {
+    let arraysize = this.quotes.length;
+    event.id = arraysize + 1;
+    event.completeDate = new Date(event.completeDate);
+    this.quotes.push(event);
+  }
+
   constructor() {}
 
   ngOnInit(): void {}
